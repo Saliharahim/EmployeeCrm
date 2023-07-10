@@ -1,0 +1,43 @@
+list all employees
+=======================
+
+url:http://127.0.0.1:8000/api/employees/
+method:get
+body:Null
+headers:Null
+
+
+employee detail
+================
+
+url:http://127.0.0.1:8000/api/employee/{id}/
+method:get
+body:Null
+headers:Null
+
+
+employee create
+===================
+
+url:http://127.0.0.1:8000/api/employee/
+method:post
+body:{"name":"vineeth","department":"hr","salary":40000,email":"vineeth@gmail.com","address":"vinubhavan","gender":"male"}
+headers:Null
+
+
+employee update
+===============
+
+url:http://127.0.0.1:8000/api/employee/{id}/
+method:put
+body:{"name":"vineeth s","department":"hr","salary":43000,email":"vineeth@gmail.com","address":"vinubhavan","gender":"male"}
+headers:Null
+
+
+employee delete
+===================
+
+url:http://127.0.0.1:8000/api/employee/{id}/
+method:delete
+body:Null
+headers:Null
